@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mosyn",
+  "description": "The Mosyn plugin: study sets that build themselves on your Android phone.",
+  "owner": {
+    "name": "Lycatra",
+    "email": "mosyn@lycatra.com"
+  },
+  "plugins": [
+    {
+      "name": "mosyn",
+      "source": "./",
+      "description": "Turn any material into a Mosyn study set, with a picture per entry, live on your phone.",
+      "category": "education",
+      "tags": ["study", "flashcards", "learning", "mcp", "android"]
+    }
+  ]
+}

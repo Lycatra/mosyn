@@ -1,0 +1,20 @@
+{
+  "name": "mosyn",
+  "interface": {
+    "displayName": "Mosyn"
+  },
+  "plugins": [
+    {
+      "name": "mosyn",
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education"
+    }
+  ]
+}

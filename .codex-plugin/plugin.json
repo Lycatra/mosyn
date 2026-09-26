@@ -1,0 +1,35 @@
+{
+  "name": "mosyn",
+  "version": "1.1.0",
+  "description": "Build Mosyn study sets, cards, pictures, and custom study games that appear live on your Android phone.",
+  "author": {
+    "name": "Lycatra",
+    "email": "mosyn@lycatra.com",
+    "url": "https://mosyn.lycatra.com"
+  },
+  "homepage": "https://mosyn.lycatra.com/connect/codex",
+  "repository": "https://github.com/Lycatra/mosyn",
+  "license": "MIT",
+  "keywords": ["education", "study", "flashcards", "learning", "mcp", "android"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Mosyn",
+    "shortDescription": "Turn material into study sets on your phone.",
+    "longDescription": "Paste a list, a reading, or a call sheet and Mosyn builds the study set it implies, with a verified picture per entry, live in the Mosyn Android app. It can also write a custom study game for the set. You approve the connection once, in the app on your phone.",
+    "developerName": "Lycatra",
+    "category": "Education",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://mosyn.lycatra.com",
+    "privacyPolicyURL": "https://mosyn.lycatra.com/privacy",
+    "termsOfServiceURL": "https://mosyn.lycatra.com/terms",
+    "brandColor": "#6750A4",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Turn these notes into a Mosyn study set.",
+      "Here is the call sheet. Help me learn everyone's name.",
+      "Build a study game for my newest Mosyn set."
+    ]
+  }
+}

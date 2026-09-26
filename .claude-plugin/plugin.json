@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "mosyn",
+  "displayName": "Mosyn",
+  "version": "1.1.0",
+  "description": "Build Mosyn study sets, cards, pictures, and custom study games that appear live on your Android phone.",
+  "author": {
+    "name": "Lycatra",
+    "email": "mosyn@lycatra.com",
+    "url": "https://mosyn.lycatra.com"
+  },
+  "homepage": "https://mosyn.lycatra.com/connect/claude-code",
+  "repository": "https://github.com/Lycatra/mosyn",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json",
+  "keywords": ["education", "study", "flashcards", "learning", "mcp", "android"]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mosyn": {
+      "type": "http",
+      "url": "https://mosyn.lycatra.com/mcp"
+    }
+  }
+}
